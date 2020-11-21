@@ -1,0 +1,42 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: black;
+    color: #fff;
+
+    .nav-logo{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .nav-menu{
+        list-style: none;
+        display: flex;
+
+        .nav-link {
+            color: #fff;
+            margin-left: 20px;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+
+            &:hover, &.active{
+                text-decoration: underline;
+            }
+        }
+    }
+    
+    @media(max-width: 760px){
+        height: 60px;
+        .nav-menu{
+            .nav-link {
+                font-size: 12px;
+               
+            }
+        }   
+    }
+}

@@ -1,0 +1,21 @@
+.pagination{
+    .pagination-button{
+        font-weight: 600;
+        margin: 5px;
+        height: 30px;
+        width: 30px;
+        border: 2px solid #000;
+        cursor: pointer;
+
+        &.active{
+          background-color: #000;
+          color: #fff;  
+        }
+
+        &:disabled{
+            color: rgb(141, 141, 141);
+            border: 2px solid rgb(141, 141, 141);
+            cursor: auto;
+        }
+    }
+}

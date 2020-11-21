@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    background-color: #000;
+    padding: 20px 0;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+
+    .github{
+        font-size: 20px;
+        color: #fff;
+    }
+}
