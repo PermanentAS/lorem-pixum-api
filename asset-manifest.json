@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PermanentAS.github.io/lorem-pixum-api/static/css/main.ada07979.chunk.css",
-    "main.js": "/PermanentAS.github.io/lorem-pixum-api/static/js/main.cb4a49d6.chunk.js",
-    "main.js.map": "/PermanentAS.github.io/lorem-pixum-api/static/js/main.cb4a49d6.chunk.js.map",
-    "runtime-main.js": "/PermanentAS.github.io/lorem-pixum-api/static/js/runtime-main.48b79df1.js",
-    "runtime-main.js.map": "/PermanentAS.github.io/lorem-pixum-api/static/js/runtime-main.48b79df1.js.map",
-    "static/js/2.e887f204.chunk.js": "/PermanentAS.github.io/lorem-pixum-api/static/js/2.e887f204.chunk.js",
-    "static/js/2.e887f204.chunk.js.map": "/PermanentAS.github.io/lorem-pixum-api/static/js/2.e887f204.chunk.js.map",
-    "static/js/3.e9d15cf8.chunk.js": "/PermanentAS.github.io/lorem-pixum-api/static/js/3.e9d15cf8.chunk.js",
-    "static/js/3.e9d15cf8.chunk.js.map": "/PermanentAS.github.io/lorem-pixum-api/static/js/3.e9d15cf8.chunk.js.map",
-    "index.html": "/PermanentAS.github.io/lorem-pixum-api/index.html",
-    "static/css/main.ada07979.chunk.css.map": "/PermanentAS.github.io/lorem-pixum-api/static/css/main.ada07979.chunk.css.map",
-    "static/js/2.e887f204.chunk.js.LICENSE.txt": "/PermanentAS.github.io/lorem-pixum-api/static/js/2.e887f204.chunk.js.LICENSE.txt",
-    "static/media/Home.scss": "/PermanentAS.github.io/lorem-pixum-api/static/media/home-bg.2ae3991c.jpg"
+    "main.css": "/lorem-pixum-api/static/css/main.4bf148f3.chunk.css",
+    "main.js": "/lorem-pixum-api/static/js/main.cb4a49d6.chunk.js",
+    "main.js.map": "/lorem-pixum-api/static/js/main.cb4a49d6.chunk.js.map",
+    "runtime-main.js": "/lorem-pixum-api/static/js/runtime-main.d3936245.js",
+    "runtime-main.js.map": "/lorem-pixum-api/static/js/runtime-main.d3936245.js.map",
+    "static/js/2.e887f204.chunk.js": "/lorem-pixum-api/static/js/2.e887f204.chunk.js",
+    "static/js/2.e887f204.chunk.js.map": "/lorem-pixum-api/static/js/2.e887f204.chunk.js.map",
+    "static/js/3.e9d15cf8.chunk.js": "/lorem-pixum-api/static/js/3.e9d15cf8.chunk.js",
+    "static/js/3.e9d15cf8.chunk.js.map": "/lorem-pixum-api/static/js/3.e9d15cf8.chunk.js.map",
+    "index.html": "/lorem-pixum-api/index.html",
+    "static/css/main.4bf148f3.chunk.css.map": "/lorem-pixum-api/static/css/main.4bf148f3.chunk.css.map",
+    "static/js/2.e887f204.chunk.js.LICENSE.txt": "/lorem-pixum-api/static/js/2.e887f204.chunk.js.LICENSE.txt",
+    "static/media/Home.scss": "/lorem-pixum-api/static/media/home-bg.2ae3991c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.48b79df1.js",
+    "static/js/runtime-main.d3936245.js",
     "static/js/2.e887f204.chunk.js",
-    "static/css/main.ada07979.chunk.css",
+    "static/css/main.4bf148f3.chunk.css",
     "static/js/main.cb4a49d6.chunk.js"
   ]
 }
