@@ -8,12 +8,14 @@ export const Card = ({ image, updateFavorites }) => {
   const [liked, setLiked] = useState(false);
 
   useEffect(() => {
-    let findInStorage = JSON.parse(localStorage.getItem("favorites")).filter(
-      (item) => item.id === image.id
-    ).length;
+    if (localStorage.getItem("favorites")) {
+      let findInStorage = JSON.parse(localStorage.getItem("favorites")).filter(
+        (item) => item.id === image.id
+      ).length;
 
-    if (findInStorage) {
-      setLiked(true);
+      if (findInStorage) {
+        setLiked(true);
+      }
     }
   }, []);
 

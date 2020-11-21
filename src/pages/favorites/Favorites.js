@@ -7,8 +7,10 @@ export const Favorites = () => {
   const [togglerUpdate, setTogglerUpdate] = useState(false);
 
   useEffect(() => {
-    setImages(JSON.parse(localStorage.getItem("favorites")));
-    setTogglerUpdate(false);
+    if (localStorage.getItem("favorites")) {
+      setImages(JSON.parse(localStorage.getItem("favorites")));
+      setTogglerUpdate(false);
+    }
   }, [togglerUpdate]);
 
   return (

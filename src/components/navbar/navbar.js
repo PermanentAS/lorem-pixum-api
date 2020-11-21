@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   const routes = [
     { title: "Home", to: "/" },
-    { title: "Favorites", to: "/favourites" },
+    { title: "Favorites", to: "/favorites" },
   ];
 
   return (

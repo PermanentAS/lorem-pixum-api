@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./pages/home/Home";
 import { Favorites } from "./pages/favorites/Favorites";
 import { ImageInfo } from "./pages/image-info/ImageInfo";
@@ -11,13 +11,13 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/" exact>
+          <Route path={"/"} exact>
             <Home />
           </Route>
-          <Route path="/favourites">
+          <Route path={"/favorites"}>
             <Favorites />
           </Route>
-          <Route path="/image-info/:id">
+          <Route path={"/image-info/:id"}>
             <ImageInfo />
           </Route>
         </Switch>
